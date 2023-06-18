@@ -1,0 +1,9 @@
+пример развертывания streamlit через docker:
+https://maelfabien.github.io/project/Streamlit/#the-application
+пример хорошего преподавания темы "Докер":
+https://www.youtube.com/watch?v=_uZQtRyF6Eg
+
+команды для терминала:
+./up.sh
+docker build -f Dockerfile -t app:latest .
+docker run -p 8501:8501 app:latest
